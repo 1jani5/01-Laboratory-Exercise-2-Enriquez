@@ -153,6 +153,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.Font = new System.Drawing.Font("Lucida Sans", 18F, System.Drawing.FontStyle.Bold);
             this.textBox3.Location = new System.Drawing.Point(322, 224);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
