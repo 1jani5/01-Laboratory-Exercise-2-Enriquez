@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCalculator));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -39,6 +40,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -74,7 +77,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Lucida Sans", 18F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(7, 11);
+            this.label3.Location = new System.Drawing.Point(6, 13);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(116, 27);
             this.label3.TabIndex = 2;
@@ -94,14 +97,16 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Lucida Sans", 18F, System.Drawing.FontStyle.Bold);
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(370, 120);
+            this.comboBox1.Location = new System.Drawing.Point(370, 112);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(93, 21);
+            this.comboBox1.Size = new System.Drawing.Size(93, 35);
             this.comboBox1.TabIndex = 4;
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Lucida Sans", 18F, System.Drawing.FontStyle.Bold);
             this.textBox1.Location = new System.Drawing.Point(322, 73);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -110,6 +115,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.Font = new System.Drawing.Font("Lucida Sans", 18F, System.Drawing.FontStyle.Bold);
             this.textBox2.Location = new System.Drawing.Point(322, 159);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -135,10 +141,23 @@
             // panel3
             // 
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(171, 211);
+            this.panel3.Location = new System.Drawing.Point(185, 211);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(126, 50);
+            this.panel3.Size = new System.Drawing.Size(112, 50);
             this.panel3.TabIndex = 9;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(322, 224);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(179, 27);
+            this.textBox3.TabIndex = 11;
             // 
             // FrmCalculator
             // 
@@ -147,6 +166,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(529, 356);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox1);
@@ -179,6 +199,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
 
