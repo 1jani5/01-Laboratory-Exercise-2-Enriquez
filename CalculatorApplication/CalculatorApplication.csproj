@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculatorClass.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="FrmCalculator.cs">
       <SubType>Form</SubType>
     </Compile>
